@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TP1 | Exercice1</title>
+  </head>
+  <body>
+    <input type="text" id="textZone1" value="Chaimae" />
+    <input type="text" id="textZone2" value="Mazzouz" />
+    <button onclick="Changer()">Click me!</button>
+
+    <script>
+      function Changer() {
+        var x = document.getElementById("textZone1").value;
+        var y = document.getElementById("textZone2").value;
+        document.getElementById("textZone1").value = y;
+        document.getElementById("textZone2").value = x;
+      }
+    </script>
+  </body>
+</html>
